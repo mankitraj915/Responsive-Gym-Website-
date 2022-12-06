@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLD'S GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,900;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="memb-header">
+        <nav>
+            <a href="index.html"><img src="images/logo9.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="join.html">JOIN NOW</a></li>
+                    <li><a href="memberships.html">MEMBERSHIPS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>  
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+ 
+        </nav>
+        <h1>Our Memberships</h1>
+    
+    </section>
+    <!-- memberships content -->
+    <section class="memberships">
+        <h1>Types of Memberships offered by SIGMA GYM</h1>
+        <p>There are various types of memberhsips offered in SIGMA GYM</p>
+
+        <div class="row">
+            <div class="memberships-col">
+                <h3>ALPHA MODE MEMBERSHIP</h3>
+                <p>In alpha mode membership you will get membership of duration of 6 months.In this membership you will get access to use all gym equipments and machines.<br>
+                Within this membership you will also get training guidance which will help you to acheive maximum results</p></div>
+            <div class="memberships-col">
+                <h3>BETA MODE MEMBERSHIP</h3>
+                <p>In beta mode mode membership you will get membership of duration of 3 months.If a person is looking for short term training programs then this is the best membership to choose of SIGMA GYM.Within this membership you will get access to use all gym machines and equipments.Also you will get access to use cardio area within this membership.</p>
+            </div>
+            <div class="memberships-col">
+                <h3>ULTRA ULPHA MEMBERSHIP</h3>
+                <p>Ultra Ulpha Membership is the most ultimate membership that SIGMA GYM offers to people.Within this membership you will get membership of duration of 12 months.If you get this membership you will get access to use all kinds of offline and online facilities provided by the SIGMA GYM.You will get access to use the most exclusive area of SIGMA GYM like Cafeteria,Steam Bathing Area,Shower Area,Training and diet guidanace from our certified trainers and dieticians which will productivise your training period.There are much more benifits you will be getting within this membership </p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+ <!-- facilities -->
+<section class="facilities">
+    <h1> Facilities</h1>
+    <p>SIgma Gym provides all shorts of facilities a fitness geek need to acheive their fitness goal </p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/fac7.jpg">
+            <h3>Well mantained Equipments</h3>\
+            <p>In the all areas of Sigma Gym like Crossfit area,Training area etc. It consist of highly maintained and functional machines and equipments for efficient training.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/fac6.jpg">
+            <h3>CERTIFIED TRAINERS AND DIETICIANS</h3>
+            <p>Members of Sigma Gym will get an opprtunity to get mentored from the best trainers available in the town.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/fac8.jpg">
+            <h3>Cardio Area</h3>\
+            <p>In the Cardio Area, members will get access of the all gym equipments and machines efficient for cardio sessions.</p>
+        </div>
+    </div>
+</section>
+
+        
+    </section>
+
+
+
+
+   
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sigma Gym is a Exclusive Gym Corporation which provides various fitness oriented availabilities<br>Being A member of Sigma Gym you will get everything to transform yourself. <br>Only thing you need after becoming a member of Sigma Gym is your hardwork and consistency</p>
+    <div class = "icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Project by <i class="fa fa-instagram"></i>Ankit Raj</p>
+</section>
+
+
+
+
+
+
+<!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>

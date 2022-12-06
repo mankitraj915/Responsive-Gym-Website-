@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGMA GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,900;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="memb-header">
+        <nav>
+            <a href="index.html"><img src="images/logo9.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="join.html">JOIN NOW</a></li>
+                    <li><a href="memberships.html">MEMBERSHIPS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>  
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+ 
+        </nav>
+        <h1>JOIN NOW</h1>
+    
+    </section>
+   <!-- JOIN  NOW CONTENT -->
+   <section class="join-content">
+       <div class="row">
+        <div class="join-left">
+            <img src="images/join7.jpg">
+            <h2>ENROLL NOW AND TRANSFORM YOURSELF</h2>
+            <p>WELCOME TO THE WORLD OF GIGA CHADS WHERE A YOUNG GEEKS FILLIED WITH WILLINGNESS TRANSFORM THEMSELVES INTO THERE ULTIMATE MODE.
+                <br>TRANSFORM YOURSELF INTO YOUR ULTIMATE POTENTIAL</P>
+            
+            <p>SO FITNESS FREAKS WHAT ARE YOU WAITING FOR COME AND JOIN THE LEAGUE OF ULTIMATE PERSONALITY.SIGMA GYM WILL ASSIST YOU TO ACHEIVE YOU DREAM PHYSIQUE.</p>
+            <br>
+            <p>Sigma Gym is a Exclusive Gym Corporation which provides various fitness oriented availabilities<br>Being A member of Sigma Gym you will get everything to transform yourself. <br>Only thing you need after becoming a member of Sigma Gym is your hardwork and consistency</p>
+            
+
+            <div class="join-box">
+                <h3>Enter Your Details</h3>
+                <form class="join-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="number" placeholder="Your Age">
+                    <input type="email" placeholder="Enter Email">
+                    <input type="text" placeholder="Enter Mobile no.">
+                    <textarea rows="5" placeholder="Your feedback"></textarea>
+                    <button type="submit" class="hero-btn red-btn">JOIN NOW</button>
+
+                </form>
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="join-right">
+            <h3>Plans categories</h3>
+            <div>
+                <span>ALPHA MODE MEMBERSHIP</span>
+                <span>*</span>
+            </div>
+            <div>
+                <span>BETA MODE MEMBERSHIP</span>
+                <span>*</span>
+            </div>
+            <div>
+                <span>ULTRA ULPHA MEMBERSHIP</span>
+                <span>*</span>
+            </div>
+            <div>
+                <span>ONLINE TRAINING SESSIONS</span>
+                <span>*</span>
+            </div>
+ 
+        </div>
+       </div>
+
+       
+
+
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sigma gym is a well equipped fitness centre available in the town.<br>Sigma gym provides all shorts of facilities you can think of to acheive your dream physique. <br>Sigma Gym provieds all kinds of classics facilities in one roof like Cafeteria,crossfit area,SPA area<</p>
+    <div class = "icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Project by<i class="fa fa-instagram"></i>Ankit Raj</p>
+</section>
+
+
+
+
+
+
+<!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
